@@ -1,0 +1,36 @@
+# Sauti Tri-Sense: Community-Led Early Warning for Population & Workforce Health
+
+### Future Health Challenge 2026 – To Sense is to Predict | Track: Population and Workforce Health Early Warning
+
+> **Tagline:** To Sense is to Predict – Listen to Community, Sense Water, Protect Health.
+
+**Team Lead:** Abdulkadir Ahmed – FCT Abuja, Nigeria | 【entity-GitHub¦canonical_name=GitHub】: @abdulahmed1127-cyber
+**Primary Challenge:** [Population Health] Population and Workforce Health Early Warning
+**Tech Types:** AI agent, Machine learning, Software application, Analytics, Sensor, Connected device
+
+#### Links
+- 【entity-GitHub¦canonical_name=GitHub】: https://github.com/abdulahmed1127-cyber/Sauti-Tri-Sense
+- Prototype Link for hack2skill: https://github.com/abdulahmed1127-cyber/Sauti-Tri-Sense
+- Live Demo: https://lovable.dev/projects/sauti-tri-sense-demo
+
+#### Problem
+Nigeria's early warning is reactive. Facility-based IDSR reports outbreaks 2-3 weeks late. 40% rural water points have chemical contamination untested.
+
+#### Solution – 3 Modules
+1. **Sauti Community:** 30-sec Hausa/English voice report via offline Android → Whisper-Hausa STT → Anomaly detection → LGA Dashboard alert.
+2. **Sauti ChemSafe:** $0.20 strip + phone camera reader → pH/conductivity vs WHO → hotspot map.
+3. **Sauti Wellbeing:** Hausa voice chatbot sustains handwashing, tracks referral to PHC, screens PHQ-2.
+
+#### Quick Start
+Backend:
+cd backend
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+
+Mobile:
+cd mobile-app
+npm install
+npx expo start
+
+#### Impact – Abuja Pilot (Abaji)
+10 wards, 50 volunteers: Detect 7-14 days earlier, reduce water-borne cases 25%, referral 30%→65%.
