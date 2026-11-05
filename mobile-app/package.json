@@ -1,0 +1,9 @@
+{
+  "name": "sauti-tri-sense-app",
+  "version": "0.1.0",
+  "scripts": { "start": "expo start" },
+  "dependencies": {
+    "expo": "~50.0.0",
+    "react-native": "0.73.0"
+  }
+}
